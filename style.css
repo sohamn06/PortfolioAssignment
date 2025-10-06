@@ -24,6 +24,68 @@ body, html {
 
 }
 
+.gap{
+    height: 300px;
+    /* width: 150px; */
+    background-color: transparent;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* color: aliceblue;    */
+    backdrop-filter: blur(2px);
+
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.1);
+    /* background-color: rosybrown; */
+    
+    padding: 20px;
+    height: 70px;    
+    width: 100%;
+    position:fixed ;
+
+    top: 0;
+    z-index: 1000;
+    
+}
+
+.nav-r{
+    display: flex;
+    flex-direction: row;
+    margin-right: 140px;
+    justify-content: space-between;
+
+
+}
+ .nav-r a{
+    color:aliceblue;
+    margin-right: 30px;
+    text-decoration: none;
+
+    font-size: 17px;
+ }
+
+
+
+
+.nav-l{
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.nav-l a{
+    text-decoration: none;
+    color: aliceblue;
+    display: flex;
+    
+}
+
 .hero{
     display: flex;
     flex-direction: column;
