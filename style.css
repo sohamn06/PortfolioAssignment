@@ -1,0 +1,87 @@
+@font-face{
+    font-family: 'Aspekta';
+    src: url("./assets/Aspekta-450.ttf")
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Aspekta";
+}
+
+
+
+body, html {
+  width: 100%;
+  height: 100%;
+  background-image: url("./assets/dennis-schweizer-18nR85wWyLY-unsplash.jpg");
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  scroll-behavior: smooth;
+
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    
+    
+    /* background-color: beige; */
+}
+.hero h1{
+    font-size: 42px;
+
+    color: aliceblue;
+}
+
+.hcolor{
+    color: #7060DC !important;
+
+    font-size: 32px;
+    font-weight: bold
+}
+
+.hero-h{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+
+.hero h4{
+    font-size: 18px;
+    color: aliceblue;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.hero button{
+    color: aliceblue;
+    background-color: #7060DC;
+    margin-top: 25px;
+    border-radius: 25px;
+    padding: 10px 20px;
+    border-style: hidden;
+    font-size: 16px;
+
+    
+}
+
+.hero button:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+    cursor:pointer;
+}
+
+.mycolor{
+    color: #7763f5 !important;
+    font-family: "Aspekta";
+    
+    
+}
