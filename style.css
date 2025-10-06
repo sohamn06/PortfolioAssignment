@@ -24,6 +24,18 @@ body, html {
 
 }
 
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .gap{
     height: 300px;
     /* width: 150px; */
@@ -54,7 +66,7 @@ body, html {
 .nav-r{
     display: flex;
     flex-direction: row;
-    margin-right: 140px;
+    margin-right: 250px;
     justify-content: space-between;
 
 
@@ -146,4 +158,201 @@ body, html {
     font-family: "Aspekta";
     
     
+}
+
+.aboutme{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 130px;
+    align-items: center;
+    /* margin-left: 46vw; */
+    /* margin-top: 18vh; */
+    /* margin-bottom: 60px; */
+}
+
+.aboutme h2{
+    font-family: "Aspekta";
+    color: aliceblue;
+    font-size: 30px;
+    
+}
+
+.about-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 550px;
+    width: 880px;
+    /* background-color:aqua; */
+    
+    
+}
+
+.aboutsec{
+    display: flex;
+    flex-direction: row;
+    width: 880px;
+    justify-content: space-around;
+}
+
+.about-l{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: rgb(35, 34, 34); */
+    height: 380px;
+    /* width: 380px; */
+}
+.about-r{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: blue; */
+    height: 380px;
+    /* width: 380px; */
+}
+
+.aboutl1 p{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 20px;
+
+    font-size: 14px;
+}
+
+.aboutl1 h2{
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.about-rs{
+    background-color: rgba(119, 99, 245, 0.5);
+    backdrop-filter: blur(1px);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 110px;
+    width: 450px;
+    border-radius: 10px;
+    border-color: #7763f5;
+    border-style: solid;
+    border-width: 2px;
+    color: aliceblue;
+    
+}
+
+.about-rs button{
+    background-color: transparent;
+    border-style: solid;
+    border-color: aliceblue;
+    border-width: 2px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    border-radius: 100px;
+    align-items: center;
+    /* font-size: 30px; */
+}
+
+.aboutl1{
+    /* background-color: rgb(25, 23, 32); */
+    height: 280px;
+    width: 380px;
+    
+}
+
+.aboutl2{
+    display: flex;
+    flex-direction: row;
+    /* background-color: rgb(165, 173, 10); */
+    height: 80px;
+    width: 380px;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+.aboutl2 button{
+    border-radius: 25px;
+    padding: 10px 20px;
+    margin:  10px;
+    font-size: 16px;
+    
+}
+
+.mybtn{
+    background-color: #7763f5;
+    color: aliceblue;
+    border-style: none;
+    
+}
+
+.CVbtn{
+    color: #7763f5;
+    background-color: transparent;
+    border-color: #7763f5;
+    border-style: double;
+}
+
+.mybtn:hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.CVbtn:hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#hehe{
+    margin-left: 10px;
+}
+
+.about-section:hover{
+    transform: scale(1.07);
+    transition: transform 0.3s ease-in-out;
+    backdrop-filter: blur(0.65px);
+    border: 1px solid rgba(255, 255, 255, 0.327);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    /* padding: 20px; */
+}
+
+.skill-icons img{
+    height: 60px;
+    width: 60px;
+    margin: 0 20px 0 30px;
+
+}
+
+
+.skills{
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 280px;
+    flex-wrap: wrap;
+}
+
+.techstack{
+    border: solid 1px aliceblue;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin: 5px;
+    background-color: rgba(88, 72, 189, 0.818);
+}
+
+.techstack:hover{
+    transform: scale(1.065);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    background-color: rgba(86, 31, 198, 0.664);
+    border-color: aliceblue;
 }
